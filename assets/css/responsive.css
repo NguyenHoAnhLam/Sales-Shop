@@ -1,0 +1,97 @@
+/* PC  */
+@media (min-width:1024px){
+    .hide-on-pc{
+        display: none;
+    }
+}
+/* Mobile & Tablet  */
+@media (max-width:1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+}
+
+/* Tablet  */
+@media (min-width:740px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    
+}
+
+/* Mobile  */
+@media (max-width:739px){
+    .hide-on-mobile{
+        display: none;
+    }
+     /* header  */
+    .header__navbar{
+        padding: 0 16px;
+    }
+    .header__navbar-category-icon{
+        font-size: 2.5rem;
+    }
+    .header__navbar-user.header__navbar-user-on--mobile{
+        min-width: unset;
+        margin: unset;
+        padding-left: 66px;
+    }
+    .header__logo-img {
+        padding-left: 66px;
+        width: 200px;
+        height: 44px;
+    }
+    .header__navbar-user-icon{
+        font-size: 2.5rem;
+        padding: 0 6px;
+    }
+    .header__cart-icon{
+        font-size: 2.5rem;
+    }
+    .header__cart-notice {
+        position: absolute;
+        padding: 4px 7px;
+        top: -12px;
+        right: -11px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        border-radius: 50%;
+        color: var(--white-color);
+        background-color: #fdd835;
+    }
+    /* wrapper__container */
+    .wrapper__container{
+        padding-top:var(--header-navbar-height) ;
+        margin: 0 16px;
+    }
+    .container__slider-mobile{
+        display: block;
+        padding-top: var(--padding-top);
+    }
+    .container_slider-img{
+        height: 214px;
+    }
+    .container__home-filter{
+        overflow-x: auto;
+        width: 100%;
+    }
+    /* .container__home-filter::-webkit-scrollbar{
+        display: none;
+    } */
+    .home__filter-item {
+        width: 150px;
+    }
+    .product__heading-img {
+        width: 100%;
+        height: 50px;
+    }
+    .coutdown-day{
+        height: 27px;
+        line-height: 27px;
+        font-size: 14px;
+    }
+    .home__featured-product-wrap{
+        overflow-x: auto;
+        width: 100%;
+    }
+}
